@@ -15,4 +15,4 @@ jobs:
       - name: Test
         uses: actions/checkout@v1
       - name: Build and Test
-        run:  xcodebuild test -project CodecovDemo.xcodeproj -scheme CodecovDemo -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.3' build test
+        run:  xcodebuild test -project AppESQuiz.xcodeproj -scheme AppESQuiz -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.3' build test
